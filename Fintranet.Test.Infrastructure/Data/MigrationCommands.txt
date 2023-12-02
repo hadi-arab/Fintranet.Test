@@ -1,0 +1,2 @@
+﻿Add-Migration [v] -Project Fintranet.Test.Infrastructure -OutputDir "Data/Migrations" -Context ApplicationDBContext
+update-database [v] -Context ApplicationDBContext
